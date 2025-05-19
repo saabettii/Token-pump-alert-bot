@@ -1,22 +1,23 @@
-📦 Token Pump Alert Bot - راهنمای اجرا
+Pump Alert Bot - Quick Start Guide
 
-1. پیش‌نیازها:
---------------------
-در ترمینال دستور زیر را بزنید تا پکیج‌های لازم نصب شوند:
+1. Prerequisites:
+------------------
+Install the required Python packages with:
 
 pip install -r requirements.txt
 
-2. اجرای ربات:
---------------------
-برای اجرای ربات این دستور را بزنید:
+2. Running the Bot:
+------------------
+Start the bot by running:
 
 python pump_alert_bot.py
 
-✅ ربات هر 5 دقیقه بازار را بررسی کرده و اگر توکنی مشکوک باشد برایتان در تلگرام پیام می‌فرستد.
+The bot will check tokens every 5 minutes and send alerts via Telegram for promising tokens.
 
-3. اطلاعات شما:
---------------------
-Token: تنظیم شده در فایل config.py
-Chat ID: تنظیم شده در فایل config.py
+3. Configuration:
+------------------
+Telegram bot token and chat ID are set in config.py.
 
-📌 اگر خواستید اطلاعات تلگرام‌تان را عوض کنید، فقط فایل config.py را ویرایش کنید.
+To change them, simply edit config.py with your own credentials.
+
+Enjoy monitoring token pumps!
